@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background-color: pink;
+}
+
+.casilla {
+    border-radius: 15px;
+    border: 1px black solid;
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+}
+
+
+.activo {
+    background-color: rgb(132, 27, 134);
+}
+
+.grid-container {
+    grid-template-areas:
+        ". . . . . a00 . . . . ."
+        ". . . . a10 a11 . . . . ."
+        ". . . . a20 a21 a22  . . . ."
+        ". . . a30 a31 a32 a33 . . . ."
+        ". . .a40 a41 a42 a43 a44 . . ."
+        ". . a50 a51 a52 a53 a54 a55 . ."
+        ". . a60 a61 a62 a63 a64 a65 a66 . ."
+        ". a70 a71 a72 a73 a74 a75 a76 a77. ."
+        ". a80 a81 a82 a83 a84 a85 a86 a87 a88 ."
+        "a90 a91 a92 a93 a94 a95 a96 a97 a98 a99";
+
+
+    gap: 15px 15x;
+
+}
+
+.slot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
